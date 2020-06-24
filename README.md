@@ -41,17 +41,6 @@ I selected songs across a veriety of different genres (Hip Hop, R&B/Soul, Electr
 
 I cleaned and analyzed the data using Python, and visualized the data using Tableau.
 
-How I Collected the Data (for Audio Features and Audio Analysis):
-
-1. Put the songs (masters and remasters) used for this project into a Spotify playlist.
-2. Create an application that connects and authenticates with the Spotify Web API through Terminal. An explanation of how to set this up can be found at this GitHub repository: https://github.com/markkohdev/spotify-api-starter
-3. Within the application, connect to your Spotify account and to the Spotify playlist containing the songs.
-4. For Audio Features: Select all the songs, and then select Audio Features.
-5. Copy the data for each song, paste into a .txt file, format as a Python dictionary, and save.
-6. For Audio Analysis: Select 1st song (dataset is too large to select all at once). Select Audio Analysis.
-7. Copy the data, paste into a .txt file, and save.
-8. Repeat steps 6 and 7 for each song.
-
 How I Collected the Data (for Artist Data):
 
 1. Go to the Spotify webpage for the artist of the 1st song. Copy everything in the url after "artist/".
@@ -60,6 +49,22 @@ How I Collected the Data (for Artist Data):
 4. Copy the "genres" and "id" data that appears on the right side and paste into a .txt file.
 5. Format the id and genre as a Python dictionary.
 6. Repeat steps 1-5 for each song, and save the .txt file.
+
+How I Collected the Data (for Audio Features and Audio Analysis):
+
+1. Put the songs (masters and remasters) used for this project into a Spotify playlist.
+2. Create an application that connects and authenticates with the Spotify Web API through Terminal. An explanation of how to set this up can be found at this GitHub repository: https://github.com/markkohdev/spotify-api-starter
+3. Within the application, connect to your Spotify account and to the Spotify playlist containing the songs.
+4. For Audio Features: Select all the songs, and then select Audio Features.
+5. Copy the data for each song, paste into a .txt file, and format as a Python dictionary.
+6. Open up your "Artist Data" .txt file and copy the "id" field for each song within the dictionary, and rename the key as "artist_id".
+7. Go to the Spotify webpage of the 1st song (the easiest way to do this is to open the spotify web player, right click the song and select "Copy Song Link", and then paste that link into your browser).
+8. Go to the link FIRST (very important, as the url changes after you go to the page). Copy everything after "spotify:track" in the url.
+9. Paste what you just copied into the dictionary within audio features .txt file, format as a dictionary with a key of "spotify_id".
+10. Repeat steps 7-9 for each song.
+11. For Audio Analysis: Select 1st song (dataset is too large to select all at once). Select Audio Analysis.
+12. Copy the data, paste into a .txt file, and save.
+13. Repeat steps 11 and 12 for each song.
 
 Python notebooks for my data cleaning and analysis can be found within the "notebooks" folder of this repository.
 
