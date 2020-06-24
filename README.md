@@ -6,32 +6,32 @@ Adam Tsuchiyama's Final NSS Capstone Project: Do Digital Audio Remaster's Change
 
  For my NSS final Capstone Project, I set out to answer the question of whether digital audio remasters changed the character of the original master. To answer this  question, I collected data from the Spotify Web API on 40 songs (20 masters and 20 remasters of the same songs). The 20 songs used were:
  
- Aretha Franklin - Respect
- Beastie Boys - Ch-Check It Out
- The Clash - London Calling
- Curtis Blow - Christmas Rappin'
- Eurythmics - Sweet Dreams (Are Made of This)
- Hootie & The Blowfish - Only Wanna Be With You
- Ice Cube - It Was A Good Day
- Interpol - PDA
- Maze - Before I Let Go
- Matchbox 20 - Unwell
- Michael Jackson - P.Y.T. (Pretty Young Thing)
- Nine Inch Nails - Head Like A Hole
- The Notorious B.I.G. - Big Poppa
- Oasis - Wonderwall
- Postal Service - Such Great Heights
- Queen - Another One Bites The Dust
- Frank Sinatra - Come Fly With Me
- The Rolling Stones - Wild Horses
- Talking Heads - Psycho Killer
- Yellow Magic Orchestra - Firecracker
- Led Zeppelin - Immigrant Song
+ 1. Aretha Franklin - Respect
+ 2. Beastie Boys - Ch-Check It Out
+ 3. The Clash - London Calling
+ 4. Curtis Blow - Christmas Rappin'
+ 5. Eurythmics - Sweet Dreams (Are Made of This)
+ 6. Hootie & The Blowfish - Only Wanna Be With You
+ 7. Ice Cube - It Was A Good Day
+ 8. Interpol - PDA
+ 9. Maze - Before I Let Go
+ 10. Matchbox 20 - Unwell
+ 11. Michael Jackson - P.Y.T. (Pretty Young Thing)
+ 12. Nine Inch Nails - Head Like A Hole
+ 13. The Notorious B.I.G. - Big Poppa
+ 14. Oasis - Wonderwall
+ 15. Postal Service - Such Great Heights
+ 16. Queen - Another One Bites The Dust
+ 17. Frank Sinatra - Come Fly With Me
+ 18. The Rolling Stones - Wild Horses
+ 19. Talking Heads - Psycho Killer
+ 20. Yellow Magic Orchestra - Firecracker
  
 Originally had these songs as well, but discovered through my analysis that the versions I had were not "remasters", but were in fact exactly the same as the original master:
  
- Alanis Morrissette - Hand In My Pocket (Acoustic)
- Santana - Smooth (feat. Rob Thomas)
+ 1. Alanis Morrissette - Hand In My Pocket (Acoustic)
+ 2. Santana - Smooth (feat. Rob Thomas)
+ 3. Led Zeppelin - Immigrant Song
  
 I selected songs across a veriety of different genres (Hip Hop, R&B/Soul, Electronic/EDM, Hard Rock, Alt. Rock/Punk) and decades (1950s-2000s). For each song, I had 3 different datasets from the Spotify Web API:
 
