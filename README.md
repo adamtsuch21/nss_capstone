@@ -4,7 +4,36 @@ READ ME
 
 Adam Tsuchiyama's Final NSS Capstone Project: Do Digital Audio Remaster's Change the "Character" of a Song?
 
- For my NSS final Capstone Project, I set out to answer the question of whether digital audio remasters changed the character of the original song. To answer this  question, I collected data from the Spotify Web API on 40 different songs (20 masters and 20 remasters of the same songs). For each song, I had 3 different data    sets from the Spotify Web API:
+ For my NSS final Capstone Project, I set out to answer the question of whether digital audio remasters changed the character of the original master. To answer this  question, I collected data from the Spotify Web API on 40 songs (20 masters and 20 remasters of the same songs). The 20 songs used were:
+ 
+ Aretha Franklin - Respect
+ Beastie Boys - Ch-Check It Out
+ The Clash - London Calling
+ Curtis Blow - Christmas Rappin'
+ Eurythmics - Sweet Dreams (Are Made of This)
+ Hootie & The Blowfish - Only Wanna Be With You
+ Ice Cube - It Was A Good Day
+ Interpol - PDA
+ Maze - Before I Let Go
+ Matchbox 20 - Unwell
+ Michael Jackson - P.Y.T. (Pretty Young Thing)
+ Nine Inch Nails - Head Like A Hole
+ The Notorious B.I.G. - Big Poppa
+ Oasis - Wonderwall
+ Postal Service - Such Great Heights
+ Queen - Another One Bites The Dust
+ Frank Sinatra - Come Fly With Me
+ The Rolling Stones - Wild Horses
+ Talking Heads - Psycho Killer
+ Yellow Magic Orchestra - Firecracker
+ Led Zeppelin - Immigrant Song
+ 
+Originally had these songs as well, but discovered through my analysis that the versions I had were not "remasters", but were in fact exactly the same as the original master:
+ 
+ Alanis Morrissette - Hand In My Pocket (Acoustic)
+ Santana - Smooth (feat. Rob Thomas)
+ 
+I selected songs across a veriety of different genres (Hip Hop, R&B/Soul, Electronic/EDM, Hard Rock, Alt. Rock/Punk) and decades (1950s-2000s). For each song, I had 3 different datasets from the Spotify Web API:
 
 1. Audio Features Data - High-level data for the song. Measures loudness, energy, etc. across the song as a whole.
 2. Audio Analysis Data - Low-level data for the song. Measures loudness, timbre, pitch, etc. during different moments in time.
